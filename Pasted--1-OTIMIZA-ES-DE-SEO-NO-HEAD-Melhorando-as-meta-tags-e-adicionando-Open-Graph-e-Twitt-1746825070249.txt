@@ -1,0 +1,572 @@
+<!-- 1. OTIMIZAÇÕES DE SEO NO HEAD -->
+<!-- Melhorando as meta tags e adicionando Open Graph e Twitter Cards -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Especialistas em pisos intertravados em Guarujá e Baixada Santista. Pavimentação ecológica industrial e residencial com intertravados de alta qualidade. Orçamento grátis!">
+    <meta name="keywords" content="piso intertravado Guarujá, pavimentação ecológica, pavers Guarujá, assentamento profissional, pavimento industrial, calçadas ecológicas, estacionamento intertravado, piso ecológico Baixada Santista">
+    <title>Ambiental Pavers Guarujá | Pisos Intertravados e Pavimentação Ecológica</title>
+    
+    <!-- Canonical URL para evitar conteúdo duplicado -->
+    <link rel="canonical" href="https://ambientalpaversguaruja.com/">
+    
+    <!-- Open Graph Tags para compartilhamento em redes sociais -->
+    <meta property="og:title" content="Ambiental Pavers Guarujá | Especialistas em Pisos Intertravados">
+    <meta property="og:description" content="Transforme sua área com pisos intertravados ecológicos e industriais. Soluções sustentáveis para residências e empresas em Guarujá e Baixada Santista.">
+    <meta property="og:image" content="https://ambientalpaversguaruja.com/img/og-image.jpg">
+    <meta property="og:url" content="https://ambientalpaversguaruja.com/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ambiental Pavers Guarujá | Pisos Intertravados">
+    <meta name="twitter:description" content="Especialistas em pisos intertravados ecológicos e industriais para Guarujá e Baixada Santista.">
+    <meta name="twitter:image" content="https://ambientalpaversguaruja.com/img/twitter-card.jpg">
+    
+    <!-- Schema Local Business aprimorado -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ambiental Pavers Guarujá",
+      "image": "https://ambientalpaversguaruja.com/img/logo.jpg",
+      "telephone": "+5513996848011",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Endereço comercial",
+        "addressLocality": "Guarujá",
+        "addressRegion": "SP",
+        "postalCode": "11410-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.9962962,
+        "longitude": -46.2568087
+      },
+      "url": "https://ambientalpaversguaruja.com",
+      "sameAs": [
+        "https://www.facebook.com/ambientalpaversguaruja",
+        "https://www.instagram.com/ambientalpaversguaruja"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "12:00"
+        }
+      ],
+      "description": "Especialistas em pisos intertravados industriais e ecológicos no Guarujá e Baixada Santista.",
+      "areaServed": ["Guarujá", "Santos", "São Vicente", "Praia Grande", "Bertioga", "Cubatão"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Pavimentação",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Piso Intertravado Industrial"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pisos Ecológicos Permeáveis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Assentamento Profissional"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+
+<!-- 2. OTIMIZAÇÕES DE PERFORMANCE NA CARGA DE RECURSOS -->
+<!-- Optimizando o carregamento do CSS e Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Carregando apenas os ícones necessários do Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css">
+
+<!-- 3. FORMULÁRIO DE CONTATO OTIMIZADO PARA CONVERSÃO -->
+<!-- Substituir o link do Google Forms por um formulário embutido -->
+<div class="contact-form">
+    <h3>Solicite um Orçamento Gratuito</h3>
+    <p>Preencha o formulário e receba uma proposta personalizada em até 24h:</p>
+    <form id="contactForm" action="https://formspree.io/seu-email@example.com" method="POST">
+        <div class="form-group">
+            <input type="text" name="nome" placeholder="Seu Nome *" required>
+        </div>
+        <div class="form-group">
+            <input type="tel" name="telefone" placeholder="WhatsApp / Telefone *" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+            <select name="servico" required>
+                <option value="" disabled selected>Tipo de Serviço *</option>
+                <option value="Piso Intertravado Industrial">Piso Intertravado Industrial</option>
+                <option value="Pisos Ecológicos">Pisos Ecológicos</option>
+                <option value="Calçadas Ecológicas">Calçadas Ecológicas</option>
+                <option value="Residencial">Área Residencial</option>
+                <option value="Estacionamento">Estacionamento</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea name="mensagem" placeholder="Descreva seu projeto brevemente (tamanho da área, finalidade, etc)"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="text" name="cep" placeholder="CEP (opcional)">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" id="urgente" name="urgente" value="sim">
+            <label for="urgente">Preciso com urgência (até 30 dias)</label>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Solicitar Orçamento Grátis</button>
+        
+        <p class="form-privacy">Seus dados estão seguros. Não compartilhamos suas informações.</p>
+    </form>
+</div>
+
+<!-- 4. CSS OTIMIZADO PARA O FORMULÁRIO E ELEMENTOS DE CONVERSÃO -->
+<style>
+    /* Estilos para o formulário de contato */
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.95rem;
+        transition: border-color 0.3s ease;
+    }
+    
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.1);
+    }
+    
+    .form-group textarea {
+        height: 100px;
+        resize: vertical;
+    }
+    
+    .form-check {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .form-check input {
+        margin-right: 10px;
+    }
+    
+    .form-privacy {
+        font-size: 0.75rem;
+        color: var(--text-light);
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /* Botão de WhatsApp fixo aprimorado */
+    .float-whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 16px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        padding: 12px 20px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    
+    .float-whatsapp i {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+    
+    .float-whatsapp:hover {
+        background-color: #128C7E;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    
+    .float-whatsapp:after {
+        content: "Orçamento grátis";
+        font-weight: 600;
+    }
+    
+    /* Pop-up de captura de leads */
+    .lead-popup {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        max-width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        padding: 20px;
+        z-index: 1000;
+        display: none; /* Inicialmente oculto */
+        animation: slideIn 0.5s forwards;
+    }
+    
+    .lead-popup-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        color: #999;
+    }
+    
+    .lead-popup h4 {
+        color: var(--primary);
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .lead-popup p {
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+    
+    .lead-popup-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .lead-popup-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: var(--primary);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    /* Melhorias de Acessibilidade */
+    .btn {
+        font-weight: 700;
+    }
+    
+    .btn-primary {
+        background-color: var(--primary);
+        color: white;
+        box-shadow: 0 4px 8px rgba(46, 125, 50, 0.2);
+    }
+    
+    .btn-primary:hover {
+        background-color: var(--primary-dark);
+        box-shadow: 0 6px 12px rgba(46, 125, 50, 0.3);
+    }
+    
+    .testimonial-card {
+        border-left: 4px solid var(--primary);
+    }
+    
+    /* Elementos de urgência e escassez */
+    .limited-offer {
+        background-color: #FFF3CD;
+        border-left: 4px solid var(--secondary);
+        padding: 15px;
+        margin: 30px 0;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    .limited-offer h4 {
+        color: #856404;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .limited-offer h4 i {
+        margin-right: 10px;
+        color: var(--secondary);
+    }
+    
+    .limited-offer .countdown {
+        font-weight: bold;
+        color: #E53935;
+    }
+</style>
+
+<!-- 5. POPUP DE CAPTURA DE LEADS -->
+<div class="lead-popup" id="leadPopup">
+    <button class="lead-popup-close" id="closePopup">&times;</button>
+    <h4>Desconto Exclusivo!</h4>
+    <p>Cadastre seu e-mail e ganhe <strong>10% de desconto</strong> no seu projeto de pavimentação:</p>
+    <form class="lead-popup-form" id="leadForm">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu melhor email" required>
+        <button type="submit">Quero Meu Desconto</button>
+    </form>
+</div>
+
+<!-- 6. GATILHO DE ESCASSEZ NA SEÇÃO CTA -->
+<div class="limited-offer">
+    <h4><i class="fas fa-clock"></i> Promoção por tempo limitado!</h4>
+    <p>Estamos com condições especiais até o fim do mês. Aproveite valores diferenciados para projetos fechados nos próximos <span class="countdown">7 dias</span>.</p>
+</div>
+
+<!-- 7. JAVASCRIPT OTIMIZADO PARA CONVERSÃO -->
+<script>
+    // Aguardar carregamento do DOM
+    document.addEventListener('DOMContentLoaded', function() {
+        // Pop-up de captura de leads
+        setTimeout(function() {
+            const leadPopup = document.getElementById('leadPopup');
+            if (leadPopup && !sessionStorage.getItem('popupShown')) {
+                leadPopup.style.display = 'block';
+                sessionStorage.setItem('popupShown', 'true');
+            }
+        }, 5000); // Exibir após 5 segundos
+        
+        // Fechar popup
+        const closePopup = document.getElementById('closePopup');
+        if (closePopup) {
+            closePopup.addEventListener('click', function() {
+                document.getElementById('leadPopup').style.display = 'none';
+            });
+        }
+        
+        // Form de leads
+        const leadForm = document.getElementById('leadForm');
+        if (leadForm) {
+            leadForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Aqui você pode implementar o envio do formulário via AJAX
+                document.getElementById('leadPopup').innerHTML = '<h4>Obrigado!</h4><p>Seu cupom de desconto foi enviado para seu email.</p>';
+            });
+        }
+        
+        // Formulário de contato
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                // Validação adicional se necessário
+                const telefone = document.querySelector('input[name="telefone"]').value;
+                if (!telefone.match(/^\d{10,11}$/)) {
+                    e.preventDefault();
+                    alert('Por favor, insira um número de telefone válido.');
+                    return false;
+                }
+                
+                // Rastreamento de conversão
+                if (typeof gtag === 'function') {
+                    gtag('event', 'form_submission', {
+                        'event_category': 'form',
+                        'event_label': 'contact_form'
+                    });
+                }
+            });
+        }
+        
+        // Mobile Navigation aprimorado
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        if (mobileToggle && navLinks) {
+            mobileToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                this.innerHTML = navLinks.classList.contains('active') ? 
+                    '<i class="fas fa-times"></i>' : 
+                    '<i class="fas fa-bars"></i>';
+                
+                // Impedir rolagem da página quando menu está aberto
+                document.body.style.overflow = navLinks.classList.contains('active') ? 
+                    'hidden' : 'auto';
+            });
+            
+            // Fechar menu ao clicar em links
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                    document.body.style.overflow = 'auto';
+                });
+            });
+        }
+        
+        // Carregamento lazy de imagens
+        if ('IntersectionObserver' in window) {
+            const lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+            
+            let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        let lazyImage = entry.target;
+                        lazyImage.src = lazyImage.dataset.src;
+                        if (lazyImage.dataset.srcset) {
+                            lazyImage.srcset = lazyImage.dataset.srcset;
+                        }
+                        lazyImage.classList.remove('lazy');
+                        lazyImageObserver.unobserve(lazyImage);
+                    }
+                });
+            });
+            
+            lazyImages.forEach(function(lazyImage) {
+                lazyImageObserver.observe(lazyImage);
+            });
+        }
+    });
+    
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX'); // Adicionar ID real do GTM
+</script>
+
+<!-- 8. CSS PARA RESPONSIVIDADE DO MENU MOBILE -->
+<style>
+    /* Estilos para navegação mobile */
+    @media (max-width: 991px) {
+        .header-container {
+            padding: 0.8rem 0;
+        }
+        
+        .mobile-toggle {
+            display: block;
+            z-index: 1010;
+        }
+        
+        .nav-links {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 300px;
+            height: 100vh;
+            background-color: white;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 80px 30px 30px;
+            transition: right 0.3s ease;
+            box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        
+        .nav-links.active {
+            right: 0;
+        }
+        
+        .nav-links li {
+            margin: 0 0 20px;
+        }
+        
+        .header-cta {
+            margin-left: 0;
+            margin-top: 20px;
+            width: 100%;
+        }
+        
+        .header-cta .btn {
+            width: 100%;
+        }
+    }
+    
+    /* Ajustes para dispositivos muito pequenos */
+    @media (max-width: 480px) {
+        .hero h1 {
+            font-size: 2.2rem;
+        }
+        
+        .hero-buttons {
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .hero-buttons .btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        .about-content {
+            flex-direction: column;
+        }
+        
+        .about-image {
+            margin-top: 30px;
+        }
+        
+        .testimonial-card {
+            padding: 20px 15px;
+        }
+        
+        .float-whatsapp:after {
+            content: "";
+        }
+        
+        .float-whatsapp {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            padding: 0;
+            justify-content: center;
+        }
+        
+        .float-whatsapp i {
+            margin-right: 0;
+            font-size: 30px;
+        }
+    }
+</style>

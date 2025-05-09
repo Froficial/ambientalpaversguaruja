@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <style>
+    .leaf { fill: #4CAF50; }
+    .dark-leaf { fill: #2E7D32; }
+    .paver { fill: #FFC107; }
+    .paver-shadow { fill: #FF8F00; }
+  </style>
+  
+  <!-- Base Circle -->
+  <circle cx="50" cy="50" r="45" fill="#ffffff" />
+  
+  <!-- Pavers Pattern -->
+  <rect x="30" y="45" width="14" height="8" rx="1" class="paver" />
+  <rect x="46" y="45" width="14" height="8" rx="1" class="paver" />
+  <rect x="62" y="45" width="14" height="8" rx="1" class="paver" />
+  
+  <rect x="22" y="55" width="14" height="8" rx="1" class="paver" />
+  <rect x="38" y="55" width="14" height="8" rx="1" class="paver" />
+  <rect x="54" y="55" width="14" height="8" rx="1" class="paver" />
+  <rect x="70" y="55" width="14" height="8" rx="1" class="paver" />
+  
+  <rect x="30" y="65" width="14" height="8" rx="1" class="paver" />
+  <rect x="46" y="65" width="14" height="8" rx="1" class="paver" />
+  <rect x="62" y="65" width="14" height="8" rx="1" class="paver" />
+  
+  <!-- Shadows on some pavers -->
+  <rect x="38" y="55" width="14" height="3" rx="1" class="paver-shadow" />
+  <rect x="62" y="65" width="14" height="3" rx="1" class="paver-shadow" />
+  
+  <!-- Leaf Element -->
+  <path d="M35,30 C15,35 25,15 45,25 C65,35 55,45 35,30 Z" class="leaf" />
+  <path d="M65,35 C85,40 75,20 55,30 C35,40 45,50 65,35 Z" class="leaf" />
+  <path d="M50,15 C60,35 40,35 50,15 Z" class="dark-leaf" />
+  
+  <!-- Stem -->
+  <rect x="49" y="28" width="2" height="15" rx="1" class="dark-leaf" />
+</svg>

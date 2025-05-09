@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ambiental Pavers Guarujá: Especialistas em pisos intertravados industriais e ecológicos com assentamento profissional. Soluções sustentáveis para pavimentação residencial e comercial no litoral paulista.">
+    <meta name="keywords" content="piso intertravado, pavimentação ecológica, pavers Guarujá, assentamento profissional, pavimento industrial, pavimentação sustentável, Guarujá, Baixada Santista">
+    <title>Ambiental Pavers Guarujá | Pisos Intertravados Ecológicos</title>
+    <!-- Schema LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ambiental Pavers Guarujá",
+      "telephone": "+5513996848011",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Guarujá",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "url": "https://ambientalpaversguaruja.com",
+      "description": "Especialistas em pisos intertravados industriais e ecológicos no Guarujá.",
+      "areaServed": "Guarujá, Baixada Santista, Litoral Paulista"
+    }
+    </script>
+    <!-- Fonts e ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2E7D32;
+            --primary-light: #4CAF50;
+            --primary-dark: #1B5E20;
+            --secondary: #FFC107;
+            --text-dark: #212121;
+            --text-light: #757575;
+            --white: #FFFFFF;
+            --light-bg: #F5F5F5;
+            --accent: #FF5722;
+            --highlight: #E8F5E9;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        h1, h2, h3, h4, h5 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        h2:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary);
+            bottom: -10px;
+            left: 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .section-title h2:after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+        }
+        .btn-secondary {
+            background-color: var(--secondary);
+            color: var(--text-dark);
+        }
+        .btn-secondary:hover {
+            background-color: #FFB300;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
+        }
+        .btn-accent {
+            background-color: var(--accent);
+            color: var(--white);
+        }
+        .btn-accent:hover {
+            background-color: #E64A19;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(255, 87, 34, 0.3);
+        }
+        .btn-outline {
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            background: transparent;
+        }
+        .btn-outline:hover {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+        }
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            max-height: 50px;
+        }
+        .logo-text {
+            margin-left: 10px;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        .nav-links li {
+            margin-left: 30px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        .header-cta {
+            margin-left: 30px;
+        }
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary);
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://picsum.photos/1200/600?random=10') no-repeat center center;
+            background-size: cover;
+            color: var(--white);
+            padding: 180px 0 100px;
+            text-align: left;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .about-text {
+            flex: 1;
+        }
+        .about-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        .service-image {
+            height: 200px;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+        }
+        .service-content {
+            padding: 20px;
+        }
+        .service-content h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        /* Benefits Section */
+        .benefits {
+            padding: 80px 0;
+            background-color: var(--highlight);
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .benefit-item {
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 10px;
+            background-color: var(--white);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .benefit-item:hover {
+            transform: translateY(-5px);
+        }
+        .benefit-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        .benefit-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        /* Portfolio Section */
+        .portfolio {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 250px;
+        }
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(46, 125, 50, 0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+            text-align: center;
+            color: var(--white);
+        }
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        .portfolio-item:hover .portfolio-image {
+            transform: scale(1.1);
+        }
+        /* Testimonials Section */
+        .testimonials {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .testimonial-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+        .testimonial-card:before {
+            content: '"';
+            font-size: 5rem;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            color: rgba(46, 125, 50, 0.1);
+            font-family: serif;
+        }
+        .testimonial-text {
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        .author-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+        .author-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .author-info h4 {
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+        .author-info p {
+            margin-bottom: 0;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        /* FAQ Section */
+        .faq {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        .faq-question {
+            background-color: var(--light-bg);
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .faq-question:hover {
+            background-color: #E8E8E8;
+        }
+        .faq-question i {
+            transition: transform 0.3s ease;
+        }
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        .faq-item.active .faq-question {
+            background-color: var(--primary-light);
+            color: var(--white);
+        }
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+        .faq-item.active .faq-answer {
+            padding: 20px;
+            max-height: 1000px;
+        }
+        /* CTA Section */
+        .cta {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: var(--white);
+            text-align: center;
+        }
+        .cta h2:after {
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--secondary);
+        }
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background-color: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        .contact-icon {
+            font-size: 1.5rem;
+            color: var(--primary);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--highlight);
+            border-radius: 50%;
+        }
+        .contact-form {
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        .form-submit {
+            width: 100%;
+        }
+        /* Footer Section */
+        footer {
+            background-color: var(--text-dark);
+            color: var(--white);
+            padding: 50px 0 20px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-logo {
+            margin-bottom: 20px;
+        }
+        .footer-about p {
+            color: #ccc;
+        }
+        .footer-links h3 {
+            margin-bottom: 20px;
+            color: var(--white);
+            position: relative;
+        }
+        .footer-links h3:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-light);
+            bottom: -10px;
+            left: 0;
+        }
+        .footer-links ul {
+            list-style: none;
+        }
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: var(--primary-light);
+        }
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .social-icon:hover {
+            background-color: var(--primary);
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 99;
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .back-to-top:hover {
+            background-color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-leaf" style="font-size: 2rem; color: var(--primary);"></i>
+                <div class="logo-text">Ambiental Pavers</div>
+            </div>
+            <nav>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de um orçamento para piso intertravado" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Orçamento
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Transforme sua área com <br>Pisos Intertravados Ecológicos</h1>
+            <p>Soluções sustentáveis de pavimentação para residências e empresas em Guarujá e Baixada Santista. Instalação profissional e materiais de alta qualidade.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Conheça Nossos Serviços</a>
+                <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, vi o site e gostaria de solicitar um orçamento" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Quem Somos</h2>
+                    <p>A <strong>Ambiental Pavers Guarujá</strong> é especializada em soluções de pavimentação sustentável com foco em pisos intertravados industriais e ecológicos para projetos residenciais e comerciais.</p>
+                    <p>Com anos de experiência no mercado, nossa equipe altamente qualificada oferece assentamento profissional e resultados duradouros que combinam estética, funcionalidade e preocupação ambiental.</p>
+                    <p>Trabalhamos com os melhores materiais do mercado e garantimos um serviço impecável do início ao fim do projeto, respeitando prazos e orçamentos.</p>
+                    <a href="#contact" class="btn btn-outline" style="margin-top: 20px;">Fale Conosco</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://picsum.photos/600/400?random=1" alt="Equipe da Ambiental Pavers Guarujá">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos soluções completas em pavimentação intertravada para diversos tipos de projetos</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://picsum.photos/400/300?random=2');"></div>
+                    <div class="service-content">
+                        <h3>Piso Intertravado Industrial</h3>
+                        <p>Soluções de pavimentação robustas e de alta resistência para áreas industriais, estacionamentos e locais de tráfego intenso.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de informações sobre piso intertravado industrial" target="_blank" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://picsum.photos/400/300?random=3');"></div>
+                    <div class="service-content">
+                        <h3>Pisos Ecológicos</h3>
+                        <p>Pavimentação permeável que permite a infiltração da água no solo, contribuindo para a sustentabilidade e redução de enchentes.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de informações sobre pisos ecológicos" target="_blank" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://picsum.photos/400/300?random=4');"></div>
+                    <div class="service-content">
+                        <h3>Assentamento Profissional</h3>
+                        <p>Instalação técnica e precisa de pisos intertravados com equipe especializada, garantindo durabilidade e acabamento perfeito.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de informações sobre serviços de assentamento" target="_blank" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://picsum.photos/400/300?random=5');"></div>
+                    <div class="service-content">
+                        <h3>Pavimentação Residencial</h3>
+                        <p>Beleza e resistência para áreas de casas e condomínios, valorizando seu imóvel com qualidade.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de informações sobre pavimentação residencial" target="_blank" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://picsum.photos/400/300?random=6');"></div>
+                    <div class="service-content">
+                        <h3>Estacionamentos Comerciais</h3>
+                        <p>Planejamento e execução de estacionamento que suporta tráfego intenso com segurança e durabilidade.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de informações sobre estacionamentos comerciais" target="_blank" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://picsum.photos/400/300?random=7');"></div>
+                    <div class="service-content">
+                        <h3>Calçadas Ecológicas</h3>
+                        <p>Calçadas permeáveis que combinam estética e funcionalidade, melhorando o meio ambiente urbano e a drenagem.</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de informações sobre calçadas ecológicas" target="_blank" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Benefícios de Trabalhar Conosco</h2>
+                <p>Conheça os diferenciais da Ambiental Pavers Guarujá</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-award benefit-icon"></i>
+                    <h3 class="benefit-title">Qualidade Garantida</h3>
+                    <p>Utilizamos materiais de alta qualidade certificada, garantindo durabilidade e segurança em cada projeto.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-leaf benefit-icon"></i>
+                    <h3 class="benefit-title">Pavimentação Sustentável</h3>
+                    <p>Promovemos soluções ecológicas que facilitam a drenagem da água e reduzem impactos ambientais.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-users benefit-icon"></i>
+                    <h3 class="benefit-title">Equipe Especializada</h3>
+                    <p>Profissionais experientes executam cada projeto com excelência e atenção aos detalhes.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-clock benefit-icon"></i>
+                    <h3 class="benefit-title">Entrega no Prazo</h3>
+                    <p>Cumprimos prazos rigorosamente, garantindo rapidez na execução sem abrir mão da qualidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projetos Realizados</h2>
+                <p>Alguns de nossos trabalhos em Guarujá e região</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/600/400?random=8" alt="Projeto Residencial" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Condomínio Residencial</h3>
+                        <p>Pavimentação de áreas comuns em condomínio, com pisos ecológicos.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/600/400?random=9" alt="Estacionamento Comercial" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Estacionamento Comercial</h3>
+                        <p>Projetos de pavimentação para estacionamentos de empresas comerciais.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/600/400?random=10" alt="Praça Pública" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Praça Pública</h3>
+                        <p>Renovação de praça com piso intertravado ecológico e acessível.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/600/400?random=11" alt="Calçada Ecológica" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Calçada Ecológica</h3>
+                        <p>Implementação de calçada permeável em rua residencial, melhorando drenagem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Que Nossos Clientes Dizem</h2>
+                <p>Veja a experiência de quem já confiou em nosso trabalho</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Excelente trabalho realizado pela Ambiental Pavers. Transformaram completamente minha área externa com pisos intertravados de alta qualidade. O atendimento foi impecável desde o orçamento até a conclusão do serviço."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://picsum.photos/100/100?random=12" alt="Cliente">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ricardo Oliveira</h4>
+                            <p>Cliente Residencial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Nossa empresa precisava de uma solução de pavimentação resistente para o estacionamento e a Ambiental Pavers realizou um trabalho excepcional. Equipe profissional, material de qualidade e prazo conforme combinado."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://picsum.photos/100/100?random=13" alt="Cliente">
+                        </div>
+                        <div class="author-info">
+                            <h4>Amanda Souza</h4>
+                            <p>Cliente Corporativo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Optamos pelos pisos ecológicos da Ambiental Pavers para nosso condomínio e ficamos extremamente satisfeitos. A drenagem da água é perfeita e a estética é muito superior ao asfalto tradicional. Recomendo fortemente."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://picsum.photos/100/100?random=14" alt="Cliente">
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Mendes</h4>
+                            <p>Síndico de Condomínio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre pisos intertravados e nossos serviços</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Quais são as vantagens do piso intertravado em relação ao concreto tradicional?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Os pisos intertravados oferecem diversas vantagens como maior permeabilidade permitindo a drenagem da água da chuva, fácil manutenção com possibilidade de substituição apenas das peças danificadas, maior vida útil, variedade de designs e cores, instalação mais rápida e limpa, além de contribuir para redução de ilhas de calor.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Quanto tempo dura um piso intertravado bem instalado?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Um piso intertravado instalado corretamente e com materiais de qualidade pode durar de 20 a 25 anos ou até mais, dependendo do tráfego e da manutenção. Nossa instalação profissional garante a máxima durabilidade e desempenho do produto.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        O piso intertravado suporta o peso de veículos pesados?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, temos modelos específicos de pisos intertravados industriais projetados para suportar cargas pesadas. Para áreas de tráfego intenso ou estacionamento de caminhões, utilizamos peças com espessuras maiores e fazemos um preparo adequado da base para garantir a resistência necessária.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Como é feita a manutenção do piso intertravado?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A manutenção é simples e prática. Para limpeza regular, basta varrer ou usar lavadora de pressão com cuidado. Em caso de peças danificadas, elas podem ser substituídas individualmente sem comprometer toda a área pavimentada. Recomendamos verificar o rejunte a cada 2 anos para manter o piso estável.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Quanto tempo leva para instalar um piso intertravado?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O tempo de instalação varia conforme a área e complexidade do projeto. Uma área residencial média pode levar de 3 a 5 dias, enquanto projetos maiores como estacionamentos comerciais podem levar algumas semanas. Fornecemos um cronograma detalhado antes do início da obra para que você possa se programar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Transforme Sua Área com Pisos Intertravados de Qualidade</h2>
+            <p>Entre em contato agora mesmo para um orçamento gratuito e personalizado</p>
+            <div class="cta-buttons">
+                <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de solicitar um orçamento para pisos intertravados" target="_blank" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> Solicitar Orçamento</a>
+                <a href="#contact" class="btn btn-outline">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contato</h2>
+                <p>Fale conosco ou solicite um orçamento via formulário</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Guarujá - SP, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p><a href="tel:+5513996848011" style="color: inherit; text-decoration: none;">(13) 99684-8011</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de mais informações sobre seus serviços" target="_blank" style="color: inherit; text-decoration: none;">(13) 99684-8011</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="far fa-clock"></i></div>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Solicite um Orçamento</h3>
+                    <p>Preencha nosso formulário online para receber um orçamento personalizado.</p>
+                    <a href="https://forms.gle/xyz123" target="_blank" class="btn btn-primary">Preencher Formulário</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf" style="font-size: 2rem; color: var(--primary-light);"></i>
+                        <span style="font-size: 1.5rem; font-weight: 700; color: var(--white); margin-left: 10px;">Ambiental Pavers</span>
+                    </div>
+                    <p>Especialistas em pisos intertravados e soluções sustentáveis de pavimentação para projetos residenciais, comerciais e industriais em Guarujá e toda Baixada Santista.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=5513996848011" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#services">Nossos Serviços</a></li>
+                        <li><a href="#benefits">Benefícios</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#testimonials">Depoimentos</a></li>
+                        <li><a href="#faq">Perguntas Frequentes</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#services">Piso Intertravado Industrial</a></li>
+                        <li><a href="#services">Pisos Ecológicos</a></li>
+                        <li><a href="#services">Assentamento Profissional</a></li>
+                        <li><a href="#services">Pavimentação Residencial</a></li>
+                        <li><a href="#services">Estacionamentos</a></li>
+                        <li><a href="#services">Calçadas Ecológicas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: var(--primary-light);"></i>Guarujá - SP</li>
+                        <li><i class="fas fa-phone-alt" style="margin-right: 10px; color: var(--primary-light);"></i>(13) 99684-8011</li>
+                        <li><i class="fab fa-whatsapp" style="margin-right: 10px; color: var(--primary-light);"></i>(13) 99684-8011</li>
+                        <li><a href="https://www.google.com/maps/place/Guaruj%C3%A1" target="_blank" style="color: var(--primary-light);"><i class="fas fa-map" style="margin-right: 10px;"></i>Ver no Google Maps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Ambiental Pavers Guarujá. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send/?phone=5513996848011&text=Olá, gostaria de um orçamento para piso intertravado" target="_blank" class="float-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+    <script>
+        // Mobile Navigation Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileToggle.innerHTML = navLinks.classList.contains('active') ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        });
+        // Close mobile nav when clicking on a nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        // Back to top button visibility
+        const backToTopButton = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                faqItems.forEach(faqItem => {
+                    faqItem.classList.remove('active');
+                });
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
